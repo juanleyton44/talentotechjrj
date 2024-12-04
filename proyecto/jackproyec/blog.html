@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>ENERGIA HIDROELECTRICA</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- fevicon -->
+   <link rel="icon" href="images/logoh.jpeg" type="image/gif" />
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"
+      integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="chart.js"></script>
+
+   <!-- Tweaks for older IEs-->
+   <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<!-- body -->
+
+<body class="main-layout">
+   <!-- loader  -->
+   <div class="loader_bg">
+      <div class="loader"><img src="images/loading.gif" alt="" /></div>
+   </div>
+   <!-- end loader -->
+   <!-- header -->
+   <header>
+      <!-- header inner -->
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-lg-3 logo_section">
+               <div class="full">
+                  <div class="center-desk">
+                     <div class="logo"> <a href="index.html"><img src="images/logoh.jpeg" alt="#"></a> </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-9">
+               <div class="menu-area">
+                  <div class="limit-box">
+                     <nav class="main-menu">
+                        <ul class="menu-area-main">
+                           <li>
+                              <a href="index.html">Inicio</a>
+                           </li>
+                           <li  class="active">
+                              <a href="about.html">graficos</a>
+                           </li>
+                           <li>
+                              <a href="marketing.html">Calculadora</a>
+                           </li>
+                           <li>
+                              <a href="contact.html">Tabla De Consumos</a>
+                           </li>
+                           <li >
+                              <a href="blog.html">G-pastel</a>
+                           </li>
+                           
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end header inner -->
+   </header>
+   <!-- end header -->
+
+   <!-- section -->
+   <div class="About-bg">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="aboutheading">
+                  <h3>Consumo<br><span class="orange_color">En <br> Años</span></h3>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <h2><B>Grafico Energias Limpias</B></h2>
+                    <div class="grafico-row">
+                      <div class="grafico-container">
+                        <h4>Gráfico de Torta</h4>
+                        <canvas id="graficoTorta" width="600" height="400"></canvas>
+                      </div>
+                    
+                      <div class="grafico-container">
+                       <h4>Gráfico de Barras</h4>
+                        <canvas id="graficoBarras" width="600" height="400"></canvas>
+                    </div>
+                  </div>
+
+                  <div class="grafico-row">
+                    <div class="grafico-container">
+                      <h4>Gráfico de Area</h4>
+                      <canvas id="graficoArea" width="600" height="400"></canvas>
+                    </div>
+            
+                  <div class="grafico-container">
+                      <h4>Gráfico de Curvas (Capacidad Geotérmica)</h4>
+                      <canvas id="graficoCurvasGeotermia" width="600" height="400"></canvas>
+                  </div>
+                </div>
+   
+   <!-- footer -->
+   <footer>
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-4 col-md-6">
+               <a href="#"><img src="images/logoh.jpeg" alt="#" /></a>
+               <ul class="contact_information">
+                  <li><span><img src="images/location_icon.png" alt="#" /></span><span class="text_cont">caldas<br>la
+                        dorada</span></li>
+                  <li><span><img src="images/phone_icon.png" alt="#" /></span><span class="text_cont">310 699
+                        2110<br>987 654 3210</span></li>
+                  <li><span><img src="images/mail_icon.png" alt="#" /></span><span
+                        class="text_cont">jonathan.aristizabal56909@ucaldas.edu.com<br>support@gmail.com</span></li>
+               </ul>
+               
+            </div>
+            <div class="col-lg-3 col-md-6">
+
+            </div>
+            <div class="col-lg-3 col-md-6">
+               <div class="col-lg-3 col-md-6">
+                  <div class="footer_links">
+                     <h3>Ubicacion Sede</h3>
+                     <ol>
+                        <iframe
+                           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.4609127452336!2d-74.73678229003413!3d5.346395394609878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e40c5789b11559d%3A0x4213331c2ecc031a!2sCentro%20de%20Innovaci%C3%B3n%20-%20Universidad%20de%20Caldas%20Sede%20Magdalena%20Medio!5e0!3m2!1ses!2sco!4v1732570400655!5m2!1ses!2sco"
+                           width="450" height="400"></iframe>
+                     </ol>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <div class="cpy">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <p>Copyright © 2019 Design by <a href="https://es.wikipedia.org/wiki/Hidroelectricidad/">HYDRO
+                     POWER-ENERGIA HIDROELECTRICA</a></p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- end footer -->
+   <!-- Javascript files-->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery-3.0.0.min.js"></script>
+   <script src="js/plugin.js"></script>
+   <!-- Scrollbar Js Files -->
+   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+   <script src="js/custom.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.js"
+      integrity="sha512-7DgGWBKHddtgZ9Cgu8aGfJXvgcVv4SWSESomRtghob4k4orCBUTSRQ4s5SaC2Rz+OptMqNk0aHHsaUBk6fzIXw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="js/grafica.js"></script>
+</body>
+
+</html>
